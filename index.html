@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css">
+
+        <title>First Task</title>
+    </head>
+    <body>
+
+        <h1>Fill in the Biodata</h1>
+        <form action="" method="*" onsubmit="alert('Form Submitted Successfully')">
+            <fieldset>
+                
+                <legend>BIODATA</legend>
+                
+                <div class="biodata">
+                    <label for="fullname">Fullname: </label>
+                </div>
+                    <input type="text" name="fullname" id="fullname" placeholder="Enter your name" required/>
+
+                    <br />
+                    <br />
+                    
+                <div class="biodata">
+                    <label for="email">Email Address: </label>
+                </div>    
+                    <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        placeholder="Enter your email"
+                        required
+                    />
+
+                    <br />
+                    <br />
+                <div class="biodata">
+                    <label for="phone number">Phone Number: </label>
+                </div>    
+                    <input type="tel" name="Phone Number" id="Phone Number" placeholder="Phone Number" required/>
+                    <br />
+                    <br />
+                
+                <div class="biodata">
+                    <label for="gender">Gender: </label>
+                </div>    
+                    <label for="male">Male </label>
+                    <input type="radio" name="sex" value="male" required/>
+
+                    <label for="female">Female </label>
+                    <input type="radio" name="sex" value="female" required/>
+
+                    <br />
+                    <br />
+
+                <div class="biodata">
+                    <label for="password">Password: </label>
+                </div>   
+                    <input type="password" name="password" id="password" placeholder="Password"  minlength="6" maxlength="12"required />
+                    <br />
+                    <br />
+
+                    <input class="submit" type="submit" value="SUBMIT"/>
+                
+            </fieldset>
+        </form>
+    </body>
+</html>
